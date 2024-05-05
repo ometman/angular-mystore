@@ -1,18 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { Product, products } from '../products'
+import { Product, products } from '../products';
 
 @Component({
   selector: 'app-product-details',
-  standalone: true,
-  imports: [],
   templateUrl: './product-details.component.html',
-  styleUrl: './product-details.component.css'
+  styleUrls: ['./product-details.component.css']
 })
 export class ProductDetailsComponent implements OnInit {
 
-  product:  Product | undefined;
+  product: Product | undefined;
 
   constructor(private route: ActivatedRoute) { }
 

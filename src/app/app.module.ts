@@ -23,16 +23,9 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     TopBarComponent,
     ProductListComponent,
     ProductAlertsComponent,
+    ProductDetailsComponent,
   ],
-  bootstrap: [
-    AppComponent
-  ]
+  providers: [], // Optionally, include providers array if needed
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
